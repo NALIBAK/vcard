@@ -826,6 +826,15 @@
       <article class="blog" data-page="blog">
 <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/ec80c710-154a-411b-9469-410d118a3263"></iframe>
          </article>
+
+      <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'http://localhost:5678/webhook/0ee4dc55-9fd9-4da8-87d3-d0b3a12c6ff6/chat'
+	});
+</script>
      <!--   <header>
           <h2 class="h2 article-title">Blog</h2>
         </header>
